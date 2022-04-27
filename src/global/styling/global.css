@@ -1,0 +1,58 @@
+body {
+  background-color: #282c34
+}
+
+html {
+  font-family: system-ui;
+}
+
+button {
+  padding: 7pt 14pt 7pt 14pt;
+  border: none;
+  border-radius: 5pt;
+}
+
+button:hover {
+  border: 1pt solid lightblue;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.App-header {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  padding: 3pt;
+  margin: 0 auto;
+  margin-top: 10pt;
+  width: fit-content;
+  border-radius: 15pt 15pt 15pt 15pt;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.btns {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 10pt;
+}
